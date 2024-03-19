@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class2th (Constant)", "..\C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class3th (Bit)", "..\Class3th (Bit)\Class3th (Bit).vcxproj", "{8EF35D77-EA40-40A9-AC05-8BCA219374B0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class dach end under flow", "..\Class dach end under flow\Class dach end under flow.vcxproj", "{51FFD587-796E-4E42-BCA1-F269249A2273}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{8EF35D77-EA40-40A9-AC05-8BCA219374B0}.Release|x64.Build.0 = Release|x64
 		{8EF35D77-EA40-40A9-AC05-8BCA219374B0}.Release|x86.ActiveCfg = Release|Win32
 		{8EF35D77-EA40-40A9-AC05-8BCA219374B0}.Release|x86.Build.0 = Release|Win32
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Debug|x64.ActiveCfg = Debug|x64
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Debug|x64.Build.0 = Debug|x64
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Debug|x86.ActiveCfg = Debug|Win32
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Debug|x86.Build.0 = Debug|Win32
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Release|x64.ActiveCfg = Release|x64
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Release|x64.Build.0 = Release|x64
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Release|x86.ActiveCfg = Release|Win32
+		{51FFD587-796E-4E42-BCA1-F269249A2273}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
