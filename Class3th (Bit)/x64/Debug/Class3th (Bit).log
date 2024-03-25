@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\Administrator\Desktop\Sonhm\Class3th (Bit)\Source.c(20,24): error C2065: 'contant': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\Sonhm\Class3th (Bit)\Source.c(24,23): error C2065: 'health': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\Sonhm\Class3th (Bit)\Source.c(24,32): error C2065: 'contant': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\Sonhm\Class3th (Bit)\Source.c(26,23): error C2065: 'health': 선언되지 않은 식별자입니다.
