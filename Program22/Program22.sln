@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class7th file", "..\class7t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class8th pointer", "..\class8th pointer\class8th pointer.vcxproj", "{B3821423-018D-444C-B233-9EDE9CE84101}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class9th.orangemunt", "..\Class9th.orangemunt\Class9th.orangemunt.vcxproj", "{4BF17E72-9420-4992-A34B-FEF1CEAA1263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{B3821423-018D-444C-B233-9EDE9CE84101}.Release|x64.Build.0 = Release|x64
 		{B3821423-018D-444C-B233-9EDE9CE84101}.Release|x86.ActiveCfg = Release|Win32
 		{B3821423-018D-444C-B233-9EDE9CE84101}.Release|x86.Build.0 = Release|Win32
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Debug|x64.ActiveCfg = Debug|x64
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Debug|x64.Build.0 = Debug|x64
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Debug|x86.Build.0 = Debug|Win32
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Release|x64.ActiveCfg = Release|x64
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Release|x64.Build.0 = Release|x64
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Release|x86.ActiveCfg = Release|Win32
+		{4BF17E72-9420-4992-A34B-FEF1CEAA1263}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
