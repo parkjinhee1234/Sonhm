@@ -1,2 +1,6 @@
 ﻿  Source.c
-  Program22.vcxproj -> C:\Users\Administrator\Desktop\Sonhm\Program22\x64\Debug\Program22.exe
+C:\Users\Administrator\Desktop\Sonhm\Program22\Source.c(69,2): warning C4013: 'Process'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\Sonhm\Program22\Source.c(76,14): error C2371: 'Process': 재정의. 기본 형식이 다릅니다.
+C:\Users\Administrator\Desktop\Sonhm\Program22\Source.c(77,2): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\Administrator\Desktop\Sonhm\Program22\Source.c(78,64): error C2065: 'data': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\Sonhm\Program22\Source.c(78,10): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 '\xeb'이(가) 있습니다.
