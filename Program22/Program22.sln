@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classth12 recursive fungsun
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class13th (Variable Scope)", "..\Class13th (Variable Scope)\Class13th (Variable Scope).vcxproj", "{9687F3EC-73A3-47A8-A145-0E6F292E6C6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class14th dynamic unruckasion", "..\Class14th dynamic unruckasion\Class14th dynamic unruckasion.vcxproj", "{20A7C21D-6CE0-45F6-BC12-64D091845D9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{9687F3EC-73A3-47A8-A145-0E6F292E6C6C}.Release|x64.Build.0 = Release|x64
 		{9687F3EC-73A3-47A8-A145-0E6F292E6C6C}.Release|x86.ActiveCfg = Release|Win32
 		{9687F3EC-73A3-47A8-A145-0E6F292E6C6C}.Release|x86.Build.0 = Release|Win32
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Debug|x64.ActiveCfg = Debug|x64
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Debug|x64.Build.0 = Debug|x64
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Debug|x86.Build.0 = Debug|Win32
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Release|x64.ActiveCfg = Release|x64
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Release|x64.Build.0 = Release|x64
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Release|x86.ActiveCfg = Release|Win32
+		{20A7C21D-6CE0-45F6-BC12-64D091845D9C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

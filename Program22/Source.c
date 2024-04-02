@@ -1,82 +1,70 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
+
+
+struct Goblin
+{
+	char grade;
+	int health;
+	const char* name;
+};
+
+struct GameObject
+{
+	int x;
+	double y;
+	short z;
+};
 
 int main()
 {
-#pragma region 동적 할당
-	// 프로그램을 실행 중에 필요한 만큼 메모리를
-	// 할당하는 작업입니다.
+#pragma region 구조처
+	// 여러 개의 변수를 하나의 집합으로 구조화한
+	// 다음 하나의 객체를 생성하는 것입니다.
 
-//	int * ptr = (int *)malloc(sizeof(int));
+//	struct Goblin goblin1;
 
-	// 동적 할당은 실행 시간에 가변적으로 메모리의
-	// 크기를 변경시킬 수 있으며, 동적으로 메모리의
-	// 크기를 할당할 때 바이트 단위로 변환합니다.
-//	printf("ptr이 가리키는 값 : %d\n", *ptr);
+//	goblin1.grade = 'A';
+//	goblin1.health = 100;
+//	goblin1.name = "난폭한 고블린";
 
-//	*ptr = 100;
+//	printf("goblin1의 주소 : %p\n", &goblin1);
+	
+//	printf("goblin1.grade의 값 : % d\n",goblin1.grade);
+//	printf("goblin1.health의 값 : %d\n", goblin1.health);
+//	printf("goblin1.name의 값 : %p\n", &goblin1.name);
 
-	//printf("ptr이 가리키는 값 : %d\n", *ptr);
+//	struct Goblin goblin2 = {'S',200, "진화한 고블린"};
+	
+//	    printf("goblin1.grade의 값 : % d\n", goblin2.grade);
+//		printf("goblin1.health의 값 : %d\n", goblin2.health);
+//		printf("goblin1.name의 값 : %p\n", &goblin2.name);
 
-	// 메모리를 동적 할당할 때 주소를 범용 포인터로
-	// 변환하기 때문에 자료형을 변환한 다음 메모리에
-	// 할당해야 합니다.
+	// 구조체의 데이터를 초기화할 때 초기화 리스트를 사용하여
+	// 초기화할 수 있으며, 왼쪽에서 오른쪽으로 초기화합니다.
 
-//	free(ptr);
-//	free(ptr);
+	// 구조체를 선언하기 전에 구조체는 메모리 공간이
+	// 생성되지 않으므로, 구조체 내부에 있는 데이터를
+	// 초기화할 수 있습니다.
 
-	// 동적으로 할당한 메모리는 힘 영역에 보관되어 있으므로
-	// 사용이 끝나면 직접 해체해주어야 합니다.
-#pragma endregion
+#pragma region 바이트 패딩
+	// 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에 읽을 수
+	// 있도록, 컴파일러가 레지스타의 블록에 맞추어 바이트를
+	// 패딩해주는 최적화 작업입니다.
 
-#pragma region 명글링 포인터
+	// struct GameObject gameObject;
 
-	// 이미 해제된 메모리 영역을 가리키는
-	// 포인터입니다.
+	// printf("GameObject의 크기 : %d\n", sizeof(gameObject));
 
-//	int* ptr1 = (int *)malloc(4);
+	// 구조체의 크기는 구조체를 구성하는 멤버 중에서 크기가
+	// 가장 큰 자료형의 배수가 되도록 정렬합니다.
 
-//	*ptr1 = 100;
+#pragma region 회문
+	const char* string = "Level";
 
-//	printf("ptr1이 가리키는 값 : %d\m", *ptr1);
+	int size = strlen(string);
 
-//	free(ptr1);
+	printf("size의 값 : %d\n", size);
 
-	// 해제된 메모리 공간에 접근해서 값을 저장하였습니다.
-//	*ptr1 = 999;
-
-//	printf("ptr1d이 가리키는 값 : %d\n", *ptr1);
-
-#pragma endregion 
-
-#pragma region 동적 배열
-
-	int dyramicArraySize = 5;
-
-	int* arrPtr = (int*)malloc(sizeof(int) * dyramicArraySize);
-
-	int size = sizeof(int) * dyramicArraySize / sizeof(int);
-
-	for (int i = 0; i < size; i++)
-	{
-		arrPtr[i] = i + 1;
-		printf("arrPtr[%d] : %d\n", i, arrPtr[i]);
-	}
-
-	dyramicArraySize = 10;
-
-	arrPtr = (int*)malloc(sizeof(int) * dyramicArraySize);
-
-	size = sizeof(int) * dyramicArraySize / sizeof(int);
-
-	printf("\n");
-
-	for (int i = 0; i < size; i++)
-	{
-		arrPtr[i] = i + 1;
-		printf("arrPtr[%d] : %d\n", i, arrPtr[i]);
-	}
-
-	return 0;
-
+#pragma #endrigion
 }
